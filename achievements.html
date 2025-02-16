@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ホーム | 研究者のウェブページ</title>
+  <link rel="icon" href="images/shitake.PNG">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style-profile.css">
+</head>
+<body>
+  <div id="loading">
+    <i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="color: #0078d7"></i>
+  </div>
+  <header>
+    <h1>小島隼星のWebサイト</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="research.html">研究内容</a></li>
+        <li><a href="achievements.html">業績</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="void"></section>
+    <section id="menu">
+      <nav id="items-nav">
+        <ul>
+            <li><a href="#" onclick="filterItems('all')">All</a></li>
+            <li><a href="#" onclick="filterItems('papers')">論文</a></li>
+            <li><a href="#" onclick="filterItems('International')">国際学会</a></li>
+            <li><a href="#" onclick="filterItems('Domestic')">国内学会</a></li>
+            <li><a href="#" onclick="filterItems('Awards')">受賞</a></li>
+            <li><a href="#" onclick="filterItems('Others')">その他</a></li>
+        </ul>
+    </nav>
+    </section>
+    <section id="profile" class="parts profile-container">
+      <section id="items">
+<!-- ここから業績リスト、上の方が新しい！ -->
+        <div class="item papers">
+          <div class="category">論文（筆頭著者）</div>
+          <img src="images/paper2.png">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1878614624001661" target="_blank">
+            <p>
+              <p>
+                「<strong>Role of putative APSES family transcription factor Swi6 in cell wall synthesis regulation in the agaricomycete <i>Pleurotus ostreatus</i></strong>」
+              </p>
+              <br>
+              <b><u>Hayase Kojima*</u></b>, Takaya Izumi*, Moriyuki Kawauchi, Yuitsu Otsuka, Kenya Tsuji, Akira Yoshimi, Chihiro Tanaka, Shigekazu Yano, Takehito Nakazawa, Yoichi Honda,</p>
+              <p>Fungal Biol. 101526. (2025) 
+              <br>*: equal contribution.
+            </p>
+          </a>
+        </div>
+
+        <div class="item papers">
+          <div class="category">論文（筆頭著者）</div>
+          <img src="images/paper1.png">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1087184524000732" target="_blank">
+            <p>
+              <p>
+                「<strong>Putative APSES family transcription factor <i>mbp1</i> plays an essential role in regulating cell wall synthesis in the agaricomycete <i>Pleurotus ostreatus</i></strong>」
+              </p>
+              <br>
+              <b><u>Hayase Kojima</u></b>, Moriyuki Kawauchi, Yuitsu Otsuka, Kim Schiphof, Kenya Tsuji, Akira Yoshimi, Chihiro Tanaka, Shigekazu Yano, Takehito Nakazawa, Yoichi Honda,</p>
+              <p>Fungal Genet. Biol. 103936. (2024) 
+            </p>
+          </a>
+        </div>
+
+        <div class="item International">
+          <div class="category">国際学会（共著）</div>
+          <img src="images/international3.png">
+          <a href="https://imc12.org/" target="_blank">
+            <p>
+              <p>
+                「<strong>Visualization and engineering of basidiomycete cell wall: for future mycelial materials</strong>」
+              </p>
+              <br>
+              <p>
+                ◯Moriyuki Kawauchi, Yuitsu Otuska, Kim Schiphof, <b><u>Hayase Kojima</u></b>, Shigekazu Yano, Kenya Tsuji, Akira Yoshimi, Chihiro Tanaka, Takehito Nakazawa, and Yoichi Honda,
+              </p>
+              <br>
+              <p>12th International Mycological Congress, Netherlands, 11-15 August, 2024.</p>
+            </p>
+          </a>
+        </div>
+
+        <div class="item Awards">
+          <div class="category">受賞（国内学会・口頭発表）</div>
+          <img src="images/award3.jpeg">
+          <a href="https://confit.atlas.jp/guide/event/wood2024/subject/O13-01-1600-1745-07/detail?lang=ja" target="_blank">
+            <p>
+              第74回日本木材学会大会 <b>学生優秀口頭発表賞 発表者として受賞</b> (2024年3月15日)
+            </p>
+          </a>
+        </div>
+
+        <div class="item Domestic">
+          <div class="category">国内学会（口頭発表）</div>
+          <img src="images/domestic2.png">
+          <a href="https://confit.atlas.jp/guide/event/wood2024/subject/O13-01-1600-1745-07/detail?lang=ja" target="_blank">
+            <p>
+              <p>
+                「<strong>白色腐朽菌ヒラタケを用いた菌糸体マテリアル作成法の検討</strong>」
+              </p>
+              <br>
+              <p>
+                <b><u>○小島隼星</u></b>、Schiphof Kim、河内護之、辻健也、田中千尋、Jong Yong-Hyeon、Shin Hyun-Jae、中沢威人、本田与一、
+              </p>
+              <br>
+              <p>第74回日本木材学会大会、O13-01-1730、京都、2024年3月13〜15日 (<b>学生優秀口頭発表賞</b>).</p>
+            </p>
+          </a>
+        </div>
+
+        <div class="item Awards">
+          <div class="category">受賞（国内学会・ポスター発表）</div>
+          <img src="images/award3.jpeg">
+          <a href="https://store-confit.atlas.jp/wood/wood2024/static/20240314174834826_ja.pdf" target="_blank">
+            <p>
+              第74回日本木材学会大会 <b>学生優秀ポスター賞 共著として受賞</b> (2024年3月15日)
+            </p>
+          </a>
+        </div>
+        
+        <div class="item Domestic">
+          <div class="category">国内学会（共著）</div>
+          <img src="images/domestic2.png">
+          <a href="https://confit.atlas.jp/guide/event/wood2024/subject/O14-P-11/date?cryptoId=" target="_blank">
+            <p>
+              <p>
+                「<strong>白色腐朽菌ヒラタケの細胞壁合成制御に寄与する転写因子Swi6の機能解析</strong>」
+              </p>
+              <br>
+              <p>
+                ◯和泉貴哉、<b><u>小島隼星</u></b>、大塚唯、河内護之、辻健也、吉見啓、田中千尋、矢野成和、中沢威人、本田与一、
+              </p>
+              <br>
+              <p>第74回日本木材学会大会、O14-P-11、京都、2024年3月13〜15日 (<b>学生優秀ポスター賞</b>).</p>
+            </p>
+          </a>
+        </div>
+
+        <div class="item International">
+          <div class="category">国際学会（口頭発表）</div>
+          <img>
+          <a href="#" target="_blank">
+            <p>
+              <p>
+                「<strong>Transcription factor Mbp1 regulates β-glucan synthesis and mycelium properties in <i>Pleurotus ostreatus</i></strong>」
+              </p>
+              <br>
+              <p>
+                <b><u>○Hayase Kojima</u></b>, Yuitsu Otsuka, Kim Schiphof, Moriyuki Kawauchi, Kenya Tsuji, Akira Yoshimi, Chihiro Tanaka, Shigekazu Yano, Takehito Nakazawa, & Yoichi Honda,
+              </p>
+              <br>
+              <p>Mushroom Science Virtual 2023, Oral10, Malaysia (Online), 18-19 October, 2023.</p>
+            </p>
+          </a>
+        </div>
+
+        <div class="item Awards">
+          <div class="category">受賞（国際学会・ポスター発表）</div>
+          <img src="images/award2.JPG">
+          <a href="https://www.mycology.or.kr/amc2023/" target="_blank">
+            <p>
+              Asian Mycological Congress 2023 <b>Best Poster Award 発表者として受賞</b> (2023年10月13日)
+            </p>
+          </a>
+        </div>
+
+        <div class="item International">
+          <div class="category">国際学会（ポスター発表）</div>
+          <img src="images/international1.png">
+          <a href="https://www.mycology.or.kr/amc2023/" target="_blank">
+            <p>
+              <p>
+                「<strong>Transcription factor Mbp1 controls β-glucan synthesis in basidiomycete <i>Pleurotus ostreatus</i></strong>」
+              </p>
+              <br>
+              <p>
+                <b><u>○Hayase Kojima</u></b>, Yuitsu Otuska, Kim Schiphof, Moriyuki Kawauchi, Kenya Tsuji, Akira Yoshimi, Chihiro Tanaka, Shigekazu Yano, Takehito Nakazawa, and Yoichi Honda,
+              </p>
+              <br>
+              <p>Asian Mycological Congress 2023, P-213, Republic of Korea, 10-13 October, 2023 (<b>Best Poster Award</b>).</p>
+            </p>
+          </a>
+        </div>
+
+        <div class="item International">
+          <div class="category">国際学会（共著）</div>
+          <img src="images/international1.png">
+          <a href="https://www.mycology.or.kr/amc2023/" target="_blank">
+            <p>
+              <p>
+                「<strong>Cell wall engineering of the mushroom for the eco-friendly material development</strong>」
+              </p>
+              <br>
+              <p>
+                ◯Moriyuki Kawauchi, Yuitsu Otuska, Kim Schiphof, <b><u>Hayase Kojima</u></b>, Shigekazu Yano, Kenya Tsuji, Akira Yoshimi, Chihiro Tanaka, Takehito Nakazawa, and Yoichi Honda,
+              </p>
+              <br>
+              <p>Asian Mycological Congress 2023, CS-14-3, Republic of Korea, 10-13 October, 2023.</p>
+            </p>
+          </a>
+        </div>
+
+        <div class="item Awards">
+          <div class="category">受賞（国内学会・ポスター発表）</div>
+          <img src="images/award1.JPG">
+          <a href="https://www.jwrs.org/wp-content/uploads/230316_Poster-Presentation-Award_73th-JWRS.pdf" target="_blank">
+            <p>第73回日本木材学会大会 <b>学生優秀ポスター賞 発表者として受賞</b> (2023年3月16日)</p>
+          </a>
+        </div>        
+
+        <div class="item Domestic">
+          <div class="category">国内学会（ポスター発表）</div>
+          <img src="images/domestic1.png">
+          <a href="https://confit.atlas.jp/guide/event/wood2023/subject/O15-P-02/date?cryptoId=" target="_blank">
+            <p>
+              <p>
+                「<strong>担子菌ヒラタケの細胞壁合成制御転写因子Mbp1及びRlm1の機能解析</strong>」
+              </p>
+              <br>
+              <p>
+                <b><u>○小島隼星</u></b>、亀井志乃、名和義順、大塚唯、河内護之、寺内裕貴、吉見啓、田中千尋、矢野成和、中沢威人、本田与一、
+              </p>
+              <br>
+              <p>第73回日本木材学会大会、O15-P-02、福岡、2023年3月14～16日 (<b>学生優秀ポスター賞</b>).</p>
+            </p>
+          </a>
+        </div>
+<!-- 
+        <div class="item International">
+          <div class="category">国際学会</div>
+          <img src="images/international4.png">
+          <a href="https://imc12.org/" target="_blank">
+            <p>
+              <p>
+                「<strong></strong>」
+              </p>
+              <br>
+              <p>
+                d
+              </p>
+              <br>
+              <p>1</p>
+            </p>
+          </a>
+        </div> -->
+
+        <!-- <div class="item Award">
+          <div class="category">受賞（国内学会・ポスター発表）</div>
+          <img src="images/＃.JPG">
+          <a href="" target="_blank">
+            <p>d</p>
+          </a>
+        </div>     -->
+        
+<!-- ここまで業績リスト、下の方が古い -->
+    </section>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Hayase Kojima</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
